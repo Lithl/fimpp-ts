@@ -53,6 +53,8 @@ run the compiler with no options to prevent overwriting).
 * `--no-typescript`: do not leave any Typescript files behind (not recommended
   without `--javascript`). Typescript files will still be generated, they will
   simply be deleted after the compiler has finished its job.
+* `--preserve-comments`: Comments in the FiM++ source will be preserved in the
+  output.
 * `-v` or `--verbose`: produce additional output when running the compiler.
 * `-h` or `--help`: display command-line instructions for compiler.
 
