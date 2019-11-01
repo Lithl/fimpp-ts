@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/Lithl/fimpp-ts/issues"
   },
-  "homepage": "https://github.com/Lithl/fimpp-ts#readme",
+  "homepage": "https://github.com/Lithl/fimpp-ts#fim",
   "dependencies": {
     "typescript": "^3.6.4"
   }
