@@ -14,8 +14,7 @@ while the rest of the line does nothing.
 
 **Example:**
 ```
-Did you know that Applejack likes numbers? P.S. I don't know how
-high she can count, though.
+Did you know that Applejack likes numbers? P.S. I don't know how high she can count, though.
 P.P.S. That's mean, I shouldn't says that. Ignore that!
 ```
 
