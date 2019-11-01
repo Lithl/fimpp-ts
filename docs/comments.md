@@ -36,8 +36,7 @@ A block comment is preceded by the character "(" and followed by the character
 
 **Example:**
 ```
-Dear Princess Luna (and by extension, Princess Celestia): Hey,
-Luna!
+Dear Princess Luna (and by extension, Princess Celestia): Hey, Luna!
 Your faithful student, Lithl.
 ```
 
