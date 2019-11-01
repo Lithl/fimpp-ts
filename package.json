@@ -1,0 +1,24 @@
+{
+  "name": "fimpp-ts",
+  "version": "1.0.0",
+  "description": "FiM++ to Typescript compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lithl/fimpp-ts.git"
+  },
+  "keywords": [
+    "fimpp",
+    "typescript",
+    "compiler"
+  ],
+  "author": "Brian Shields (blanketyblankman@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lithl/fimpp-ts/issues"
+  },
+  "homepage": "https://github.com/Lithl/fimpp-ts#readme"
+}
