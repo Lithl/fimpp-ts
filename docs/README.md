@@ -18,9 +18,9 @@ original specification document](https://docs.google.com/document/d/1gU-ZROmZu0X
   reserved for ending a line of code.
 * All labels are case-sensitive, but keywords (or keyword phrases) are not.
 * A line of code must be terminated with one of the reserved punctuation marks:
-** `.` (period)
-** `!` (exclamation mark)
-** `?` (question mark)
-** `‽` (interrobang)
-** `…` (ellipsis)
-** `:` (colon)
+  * `.` (period)
+  * `!` (exclamation mark)
+  * `?` (question mark)
+  * `‽` (interrobang)
+  * `…` (ellipsis)
+  * `:` (colon)
