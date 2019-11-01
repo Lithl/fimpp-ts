@@ -3,7 +3,7 @@ This directory contains specification for the FiM++ language, based on [the
 original specification document](https://docs.google.com/document/d/1gU-ZROmZu0Xitw_pfC1ktCDvJH5rM85TxxQf5pg_xmg/edit?pli=1#).
 
 * [Comments](comments.md#fim-comments)
-* [Classes and Interfaces](classes-interfaces.md)
+* [Classes and Interfaces](classes-interfaces.md#fim-classes)
 * [Methods](methods.md)
 * [Variables](variables.md)
 * [Literals](lierals.md)
