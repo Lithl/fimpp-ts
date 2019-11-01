@@ -4,13 +4,12 @@ original specification document](https://docs.google.com/document/d/1gU-ZROmZu0X
 
 * [Comments](comments.md#fim-comments)
 * [Classes and Interfaces](classes-interfaces.md#fim-classes)
-* [Methods](methods.md)
-* [Variables](variables.md)
-* [Literals](lierals.md)
-* [Operators](operators.md)
-* [Input/Output](input-output.md)
-* [Logic](logic.md)
-* [Control flow](control-flow.md)
+* [Methods](methods.md#fim-medthos)
+* [Variables and Literals](variables-literals.md#fim-variables)
+* [Operators](operators.md#fim-operators)
+* [Logic](logic.md#fim-logic)
+* [Input/Output](input-output.md#fim-input-and-output)
+* [Control flow](control-flow.md#fim-control-flow)
 
 ### General notes
 * Labels (keywords, variable names, class names, method names) can be multiple
