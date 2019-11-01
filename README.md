@@ -46,6 +46,9 @@ run the compiler with no options to prevent overwriting).
 * `-o dirname` or `--out dirname`: place output files in `dirname` (relative to
   current working directory). If the input files have directory structure, that
   structure will be preserved.
+* `--browser`: generates code that is intended to be run in the browser, rather
+  than as a Node command-line application. This changes, for example,
+  `readline.question` to `prompt`.
 * `-js` or `--javascript`: compile the Typescript files into JavaScript.
 * `--no-typescript`: do not leave any Typescript files behind (not recommended
   without `--javascript`). Typescript files will still be generated, they will
@@ -58,5 +61,5 @@ Some parts of the FiM++ language are not fully specified. In order for this
 compiler to work properly, those missing pieces need filling in. To that end,
 the `docs` directory contains the full specification used by this compiler.
 
-See the language specification [README](docs/README.md) for additional
-information.
+See the language specification
+[README](docs/README.md#fim-language-specification) for additional information.
