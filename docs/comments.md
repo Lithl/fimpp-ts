@@ -12,9 +12,12 @@ high she can count, though.`
 In this case, `Did you know that Applejack likes numbers?` declares a variable,
 while the rest of the line does nothing.
 
-**Example:** `Did you know that Applejack likes numbers? P.S. I don't know how
-high she can count, though.`
-`P.P.S. That's mean, I shouldn't says that. Ignore that!`
+**Example:**
+```
+Did you know that Applejack likes numbers? P.S. I don't know how
+high she can count, though.
+P.P.S. That's mean, I shouldn't says that. Ignore that!
+```
 
 This example is functionally identical to the previous one, simply with multiple
 comments. Do note that the number of "P."s is arbitrary, and it is not
