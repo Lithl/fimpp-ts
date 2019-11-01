@@ -122,5 +122,49 @@ friendship() {
 }
 ```
 
+### Calling a method
+To call a method, you must reference the object instance it's a member of (or
+the name of the class, if it's a static method) followed by "remembered" or
+"would", and then the method name. If you are supplying parameters to the method
+call, follow the mthod name with "using" and each parameter (separating multiple
+parameters with "and").
+
+When calling a method that is a member of the current object, you can use "I" as
+the object reference, or else omit the reference (and the "remembered"/"would"
+keyword) entirely. This works for both static and instance methods.
+
+**Example:** `Did you know that Spike was Spike's age?`
+
+This calls the function "Spike's age" on the current object, and assigns the
+return value to the variable `Spike`.
+
+**Example:** `I said how to write Hello World!`
+
+This calls the function "how to write Hello World" and prints the return value
+to the output stream.
+
+**Example:** `I remembered how to write Hello World using Quills.`
+
+Calls the same function in the previous example, but passes the parameter
+`Quills`, and doesn't print the return value.
+
+**Example:** `Applejack remembered a countryism!`
+
+Calls the function "a countryism" on the object `Applejack`.
+
+#### Typescript equivalent
+```typescript
+let Spike = this.Spike_s_age();
+```
+```typescript
+console.log(this.how_to_write_Hello_World());
+```
+```typescript
+this.how_to_write_Hello_World(Quills);
+```
+```typescript
+Applejack.a_countryism();
+```
+
 ## Future Work
 * This specification does not currently include abstract methods.
