@@ -17,6 +17,21 @@ because `*.fpp` is already used by Fortran) and translate it into a Typescript
 file (`*.ts`). Optionally, the compiler can automatically run the Typescript
 compiler to produce a JavaScript file (`*.js`).
 
+### Installing the compiler
+Clone this repo:
+
+```bash
+git clone https://github.com/Lithl/fimpp-ts.git
+```
+
+Install using NPM:
+
+```bash
+npm install
+```
+
+You're done! The install script will do everything you need.
+
 ### Running the compiler
 Use `fimpp-ts [options] files...` to compile any number of `*.fimpp` files.
 While FiM++ files are expected to use the extension `FIMPP`, the compiler will

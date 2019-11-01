@@ -4,6 +4,7 @@
   "description": "FiM++ to Typescript compiler",
   "main": "index.ts",
   "scripts": {
+    "postinstall": "echo \"Done installing\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
