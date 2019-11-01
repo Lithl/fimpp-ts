@@ -75,7 +75,7 @@ interface Shining_Armor extends Guard_Captain, BBBFF {
 
 ### Interface restrictions
 * Method signatures in an interface may not be marked private (using the
-  `Secretly` keyword).
+  `I secretly learned` keyword phrase).
 * Method signatures in an interface may not be marked protected (using the
   `We learned` keyword phrase).
 * No method signature in an interface may be marked as a program entry point
@@ -83,3 +83,6 @@ interface Shining_Armor extends Guard_Captain, BBBFF {
 
 ### Ending an interface
 Interfaces are ended in exactly the same way as classes, above.
+
+## Future Work
+* This specification does not currently include abstract classes
