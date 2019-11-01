@@ -4,7 +4,7 @@ original specification document](https://docs.google.com/document/d/1gU-ZROmZu0X
 
 * [Comments](comments.md#fim-comments)
 * [Classes and Interfaces](classes-interfaces.md#fim-classes)
-* [Methods](methods.md#fim-medthos)
+* [Methods](methods.md#fim-methods)
 * [Variables and Literals](variables-literals.md#fim-variables)
 * [Operators](operators.md#fim-operators)
 * [Logic](logic.md#fim-logic)
