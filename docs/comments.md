@@ -59,7 +59,8 @@ This example demonstrates that the block comment can span multiple lines.
 
 #### Typescript equivalent
 ```typescript
-class Hey_Luna extends Princess_Luna /*and by extension, Princess Celestia*/ {}
+class Hey_Luna extends Princess_Luna /*and by extension, Princess Celestia*/ {
+} // Lithl
 ```
 ```typescript
 /*This letter functions as a simple example of a FiM++ program.
@@ -68,7 +69,7 @@ class Hello_World extends Object {
   static how_to_say_hello_world(): void {
     console.log('Hello, World!');
   }
-}
+} // Lithl
 ```
 
 #### A note on math
