@@ -62,4 +62,4 @@ compiler to work properly, those missing pieces need filling in. To that end,
 the `docs` directory contains the full specification used by this compiler.
 
 See the language specification
-[README](docs/README.md#fim-language-specification) for additional information.
+[README](docs/#fim-language-specification) for additional information.
