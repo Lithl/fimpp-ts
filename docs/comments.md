@@ -6,15 +6,15 @@ An inline comment is preceded by the string "S.", which is itself preceded by
 one or more instances of the string "P.". Everything from the first "P." to the
 end of the line is ignored.
 
-**Example:** `Did you know that Applejack likes numbers? P.S. I don't know how
+**Example:** `Did you know that Applejack likes a number? P.S. I don't know how
 high she can count, though.`
 
-In this case, `Did you know that Applejack likes numbers?` declares a variable,
+In this case, `Did you know that Applejack likes a number?` declares a variable,
 while the rest of the line does nothing.
 
 **Example:**
 ```
-Did you know that Applejack likes numbers? P.S. I don't know how high she can count, though.
+Did you know that Applejack likes a number? P.S. I don't know how high she can count, though.
 P.P.S. That's mean, I shouldn't says that. Ignore that!
 ```
 
