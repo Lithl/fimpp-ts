@@ -107,39 +107,39 @@ Twilight.her_checklist = true;
 A type keyword may optionally be prefixed with "the", "a", or "an".
 
 * 64-bit floating-point number
-** `number`
+    * `number`
 * String
-** One of: `letter`, `character`, `word`, `phrase`, `sentence`, `quote`, `name`
+    * One of: `letter`, `character`, `word`, `phrase`, `sentence`, `quote`, `name`
 _Note: The FiM++ specification distinguishes a single-character type from a
 multi-character type. However, that specification is based on Java, while this
 compiler targets Typescript, which makes no such distinction._
 * Boolean
-** One of: `logic`, `argument`
+    * One of: `logic`, `argument`
 * Array
-** `many` followed by another type name, optionally suffixed with "s" or "es"
+    * `many` followed by another type name, optionally suffixed with "s" or "es"
 * Object
-** The object label
+    * The object label
 
 ### Literals
 * 64-bit floating point number
-** `/[1-9]\d*(?:\.\d+)?/` for a base-10 number
-** `/0b[01]+/` for a base-2 integer
-** `/0[0-7]+/` for a base-8 integer
-** `/0x[0-9a-fA-F]+/` for a base-16 integer
+    * `/[1-9]\d*(?:\.\d+)?/` for a base-10 number
+    * `/0b[01]+/` for a base-2 integer
+    * `/0[0-7]+/` for a base-8 integer
+    * `/0x[0-9a-fA-F]+/` for a base-16 integer
 * String
-** A sequence of unicode characters prefixed and suffixed with a single quote
+    * A sequence of unicode characters prefixed and suffixed with a single quote
 (`'`), excluding newline characters. Escape sequences can be included.
-** A sequence of unicode characters prefixed and suffixed with a double quote
+    * A sequence of unicode characters prefixed and suffixed with a double quote
 (`"`), excluding newline characters. Escape sequences can be included.
-** A sequence of unicode characters prefixed and suffixed with a single backtick
-(`\``), including newline characters. In addition to the escape sequences usable
-in other strings, you can wrap an expression with `${` and `}` in order to
-insert the result of the expression into the string.
+    * A sequence of unicode characters prefixed and suffixed with a single
+      backtick (`\``), including newline characters. In addition to the escape
+      sequences usable in other strings, you can wrap an expression with `${`
+      and `}` in order to insert the result of the expression into the string.
 * Boolean
-** `yes`, `true`, `right`, `correct`
-** `no`, `false`, `wrong`, `incorrect`
+    * `yes`, `true`, `right`, `correct`
+    * `no`, `false`, `wrong`, `incorrect`
 * Null
-** `empty`
-** `none`
+    * `empty`
+    * `none`
 * Undefined
-** `nothing`
+    * `nothing`
