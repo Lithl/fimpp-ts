@@ -64,7 +64,7 @@ which will return a number and has two number parameters, "A" and "B".
 
 #### Typescript equivalent
 ```typescript
-I_learned_the_importance_of_oral_hygeine() {
+the_importance_of_oral_hygeine() {
 ```
 ```typescript
 static how_to_say_Hello_World() {
