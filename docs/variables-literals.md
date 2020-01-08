@@ -109,10 +109,11 @@ A type keyword may optionally be prefixed with "the", "a", or "an".
 * 64-bit floating-point number
     * `number`
 * String
-    * One of: `letter`, `character`, `word`, `phrase`, `sentence`, `quote`, `name`
-_Note: The FiM++ specification distinguishes a single-character type from a
-multi-character type. However, that specification is based on Java, while this
-compiler targets Typescript, which makes no such distinction._
+    * One of: `letter`, `character`, `word`, `phrase`, `sentence`, `quote`,
+      `name`<br>
+      _Note: The FiM++ specification distinguishes a single-character type from
+      a multi-character type. However, that specification is based on Java,
+      while this compiler targets Typescript, which makes no such distinction._
 * Boolean
     * One of: `logic`, `argument`
 * Array
@@ -128,9 +129,9 @@ compiler targets Typescript, which makes no such distinction._
     * `/0x[0-9a-fA-F]+/` for a base-16 integer
 * String
     * A sequence of unicode characters prefixed and suffixed with a single quote
-(`'`), excluding newline characters. Escape sequences can be included.
+      (`'`), excluding newline characters. Escape sequences can be included.
     * A sequence of unicode characters prefixed and suffixed with a double quote
-(`"`), excluding newline characters. Escape sequences can be included.
+      (`"`), excluding newline characters. Escape sequences can be included.
     * A sequence of unicode characters prefixed and suffixed with a single
       backtick (`\``), including newline characters. In addition to the escape
       sequences usable in other strings, you can wrap an expression with `${`
