@@ -129,9 +129,14 @@ the name of the class, if it's a static method) followed by "remembered" or
 call, follow the mthod name with "using" and each parameter (separating multiple
 parameters with "and").
 
-When calling a method that is a member of the current object, you can use "I" as
-the object reference, or else omit the reference (and the "remembered"/"would"
-keyword) entirely. This works for both static and instance methods.
+When calling a method that is a member of the current object (or one of its
+ancestors) from within an instance method, you can use "I" as the object
+reference, or else omit the reference (and the "remembered"/"would" keyword)
+entirely. This works for both static and instance methods.
+
+When referencing a static method that's a member of the current class (or one of
+its ancestors) from within a static method, you can omit the object reference
+(and the "remembered"/"would" keyword) entirely.
 
 **Example:** `Did you know that Spike was Spike's age?`
 
