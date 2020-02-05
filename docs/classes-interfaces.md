@@ -86,3 +86,7 @@ Interfaces are ended in exactly the same way as classes, above.
 
 ## Future Work
 * This specification does not currently include abstract classes
+* This specification does not currently include explicit calls to the
+superclass's constructor or methods.
+* This specification does not currently have any means to inspect the
+inheritance tree (`instanceof`).

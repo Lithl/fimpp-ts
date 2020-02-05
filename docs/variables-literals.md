@@ -145,3 +145,7 @@ A type keyword may optionally be prefixed with "the", "a", or "an".
     * `none`
 * Undefined
     * `nothing`
+
+## Future work
+* This specification does not currently have any means to inspect variable or
+field types (`typesof`).
