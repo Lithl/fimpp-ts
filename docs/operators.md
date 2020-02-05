@@ -4,10 +4,8 @@ Arithmetic operators take one number (unary operator) or two numbers (binary
 operators) as operands.
 
 #### Unary operators
-**Identity:** Returns the value of the operand.
-
-_Not implemented! As FiM++ enforces arithmetic operands to be numbers, the
-identity operator serves no purpose._
+**Identity:** _Not implemented! As FiM++ enforces arithmetic operands to be
+numbers, the identity operator serves no purpose._
 
 **Negation:** Returns the negation of the operand (1 becomes -1 and vice versa)
 
@@ -210,3 +208,95 @@ leftmost bit from the left.
 number of positions equal tot he second operand, shifting in `0`s from the left.
 
 * TODO
+
+### Comparison
+Comparison operators produce boolean values from two input operands.
+
+All comparison operators use one of the keywords "is", "was", "has", or "had".
+In this section, these keywords will be referred to as a "comparison keyword".
+The contraction of these keywords with the word 'not' ("isn't", "wasn't",
+"hasn't", and "hadn't") are collectively referred to as "negative comparison
+keywords".
+
+#### Equality
+Equality operators can function on any two operands, regardless of their
+respective types.
+
+**Equality:** _Not implemented! Use of the equality operator is almost always a
+mistake, and is often the source of confusion, so has been left out of this
+implementation of FiM++._
+
+**Inequality:** _Not implemented! Use of the inequality operator is almost
+always a mistake, and is often the source of confusion, so has been left out of
+this implementation of FiM++._
+
+**Strict equality:** Returns true if the two operands are exactly equal.
+
+* Use the first operand followed by a comparison keyword and the second
+operand.  
+`I said Junebug's profit was Rose's profit.`
+
+    ```typescript
+    console.log(Junebug_s_profit === Rose_s_profit);
+    ```
+
+**Strict inequality:** Returns true if the two operands are not exactly equal.
+
+* Use the first operand followed by either a negative comparison keyword, or
+else a comparison keyword followed by the keyword "not", and the second
+operand.  
+`I said Junebug's profit wasn't Rose's profit.`
+
+    ```typescript
+    console.log(Junebug_s_profit !== Rose_s_profit);
+    ```
+
+#### Relational
+Relational operators will only operate on operands which are number types.
+
+**Greater than:** Returns true if the first operand is greater than the second
+operand.  
+
+* Use the first operand followed by a comparison keyword and one of the keyword
+phrases "more than" or "greater than" and the second operand.  
+`Did you know that truth always is the argument anything Trixie can do is greater than anything you can do?`
+
+    ```typescript
+    const truth: boolean = anything_Trixie_can_do > anything_you_can_do;
+    ```
+
+**Greater than or equal:** Returns true if the first operand is greater than the
+second operand or is equal to the second operand.
+
+* Use the first operand followed by either a negative comparison keyword, or
+else a comparison keyword followed by one of the keywords "no" or "not",
+followed by the keyword phrase "less than" and the second operand.  
+`I said Chrysalis's greatness isn't less than Twilight's greatness.`
+
+    ```typescript
+    console.log(Chrysalis_s_greatness >= Twilight_s_greatness);
+    ```
+
+**Less than:** Returns true if the first operand is less than the second
+operand.
+
+* Use the first operand followed by a comparison keyword and the keyword phrase
+"less than" and the second operand.  
+`I said the coolness of Rainbow Dash's dress was less than 0.8.`
+
+    ```typescript
+    console.log(the_coolness_of_Rainbow_Dash_s_dress < 0.8);
+    ```
+
+**Less than or equal to:** Returns true if the first operand is less than the
+second perand or is equal to the second operand.
+
+* Use the first operand followed by either a negative comparison keyword, or
+else a comparison keyword followed by one of the keywords "no" or "not",
+followed by one of the keyword phrases "more than" or "greater than" and the
+second operand.  
+`I said the number of flowers in Junebug's gardne isn't more than 50.`
+
+    ```typescript
+    console.log(the_number_of_flowers_in_Junebug_s_garden <= 50);
+    ```
