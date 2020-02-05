@@ -161,3 +161,52 @@ second operand.
     ```typescript
     const sixteen = 2 ** 4;
     ```
+
+### Bitwise
+Bitwise operators take one number (unary operator) or two numbers (binary
+operators) as operands.
+
+Bitwise operators convert the 64-bit number operands to 32-bit integers using
+two's compliment, except for the zero-fill right shift which uses an unsigned
+32-bit integer.
+
+#### Unary operators
+**NOT:** Computes the ones' compliment for the operand. (Equivalent to
+`-(x + 1)`.)
+
+* TODO
+
+#### Binary operators
+**AND:** Computes AND for each corresponding bit in each operand and returns the
+result. (The corresponding result bit will be 1 if _both_ operand bits are 1, 0
+otherwise.)  
+
+* TODO
+
+**OR:** Computes OR for each corresponding bit in each operand and returns the
+result. (The corresponding result bit will be 1 if _either_ operand bits are 1,
+0 otherwise.)
+
+* TODO
+
+**XOR:** Computes XOR for each corresponding bit in each operand and returns the
+result. (The corresponding result bit will be 1 if the operand bits are
+different, 0 otherwise.)
+
+* TODO
+
+**Left shift:** Shifts the bits of the first operand left by a number of
+positions equal to the second operand, shifting in `0`s from the right.
+
+* TODO
+
+**Sign-propagating right shift:** Shifts the bits of the first oeprand right by
+a number of positions equal to the second operand, shifting in copies of the
+leftmost bit from the left.
+
+* TODO
+
+**Zero-fill right shift:** Shifts the bits of the first operand right by a
+number of positions equal tot he second operand, shifting in `0`s from the left.
+
+* TODO
