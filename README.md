@@ -48,7 +48,7 @@ run the compiler with no options to prevent overwriting).
   structure will be preserved.
 * `--browser`: generates code that is intended to be run in the browser, rather
   than as a Node command-line application. This changes, for example,
-  `readline.question` to `prompt`.
+  `readline.question` to `window.prompt`.
 * `-js` or `--javascript`: compile the Typescript files into JavaScript.
 * `--no-typescript`: do not leave any Typescript files behind (not recommended
   without `--javascript`). Typescript files will still be generated, they will
