@@ -7,7 +7,6 @@ original specification document](https://docs.google.com/document/d/1gU-ZROmZu0X
 * [Methods](methods.md#fim-methods)
 * [Variables and Literals](variables-literals.md#fim-variables)
 * [Operators](operators.md#fim-operators)
-* [Logic](logic.md#fim-logic)
 * [Input/Output](input-output.md#fim-input-and-output)
 * [Control flow](control-flow.md#fim-control-flow)
 
