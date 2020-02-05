@@ -4,9 +4,6 @@ Arithmetic operators take one number (unary operator) or two numbers (binary
 operators) as operands.
 
 #### Unary operators
-**Identity:** _Not implemented! As FiM++ enforces arithmetic operands to be
-numbers, the identity operator serves no purpose._
-
 **Negation:** Returns the negation of the operand (1 becomes -1 and vice versa)
 
 * Use one of the keywords "negated", "negative", or "inverted" followed by the
@@ -222,15 +219,9 @@ keywords".
 Equality operators can function on any two operands, regardless of their
 respective types.
 
-**Equality:** _Not implemented! Use of the equality operator is almost always a
-mistake, and is often the source of confusion, so has been left out of this
-implementation of FiM++._
-
-**Inequality:** _Not implemented! Use of the inequality operator is almost
-always a mistake, and is often the source of confusion, so has been left out of
-this implementation of FiM++._
-
-**Strict equality:** Returns true if the two operands are exactly equal.
+**Equality:** Returns true if the two operands are exactly equal. _Note: This is
+implemented as strict equality, and this FiM++ implementation has no provision
+for the `==` operator of TypeScript/JavaScript._
 
 * Use the first operand followed by a comparison keyword and the second
 operand.  
@@ -240,7 +231,9 @@ operand.
     console.log(Junebug_s_profit === Rose_s_profit);
     ```
 
-**Strict inequality:** Returns true if the two operands are not exactly equal.
+**Inequality:** Returns true if the two operands are not exactly equal. _Note:
+This is implemented as strict inequality, and this FiM++ implementation has no
+provision for the `!=` operator of TypeScript/JavaScript._
 
 * Use the first operand followed by either a negative comparison keyword, or
 else a comparison keyword followed by the keyword "not", and the second
