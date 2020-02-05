@@ -293,3 +293,22 @@ second operand.
     ```typescript
     console.log(the_number_of_flowers_in_Junebug_s_garden <= 50);
     ```
+
+### Conditional
+The conditional operator is the only one which requires three operands (ternary
+operator). The first operand must be a boolean type, while the types of the
+second and third operands can be anything. (However, in most circumstances their
+types should at least be the same.)
+
+If the first operand is true, the operator returns the first operand. Otherwise,
+it returns the second operand.
+
+* Use one of the keywords "if" or "when" followed by the first operand, the
+keyword "then", the second operand, the keyword phrase "or else", and the third
+operand.  
+`I said if Trixie is powerful then 'applause' or else 'boo'.`
+
+    ```typescript
+    console.log(Trixie_is_powerful ? 'applause' : 'boo');
+    ```
+
