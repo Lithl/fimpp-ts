@@ -133,9 +133,10 @@ A type keyword may optionally be prefixed with "the", "a", or "an".
     * A sequence of unicode characters prefixed and suffixed with a double quote
       (`"`), excluding newline characters. Escape sequences can be included.
     * A sequence of unicode characters prefixed and suffixed with a single
-      backtick (`\``), including newline characters. In addition to the escape
-      sequences usable in other strings, you can wrap an expression with `${`
-      and `}` in order to insert the result of the expression into the string.
+      backtick (`` ` ``), including newline characters. In addition to the
+      escape sequences usable in other strings, you can wrap an expression with
+      `${` and `}` in order to insert the result of the expression into the
+      string.
 * Boolean
     * `yes`, `true`, `right`, `correct`
     * `no`, `false`, `wrong`, `incorrect`
