@@ -65,7 +65,6 @@ const rl = readline.createInterface({
 // editor's note: the above code would be near the top of the file, not
 // repeated each time the user code needs to ask for a prompt.
 
-let the_pony: string;
 rl.questionAsync('What is your name? ').then((answer: string) => {
   the_pony = answer;
 });
