@@ -348,3 +348,14 @@ true, the second operand will not be evaluated.
     ```typescript
     let whether_I_went_outside: boolean = the_sky.be_clear() || Pinkie_Sense.be_still();
     ```
+
+### String concatenation
+Strictly speaking, there is no string concatenation operator. Any two
+consecutive string values will automatically be concatenated into a new string
+value combining the two operands.
+
+`Did you know that Spike's full name always was 'Spike' ' ' 'the Dragon'?`
+
+```typescript
+const Spike_s_full_name = 'Spike' + ' ' + 'the Dragon';
+```
