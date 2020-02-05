@@ -71,14 +71,3 @@ class Hello_World extends Object {
   }
 } // Lithl
 ```
-
-#### A note on math
-Yes, the fact that parentheses are used for block comments does cause a problem
-for writing math which needs parentheses to control order of operations. One
-option is simply to rewrite whatever equation you need in a way that the
-parentheses are not required. For example, instead of `a * (b + c)`, you could
-write `a * b + a * c`. Alternatively, you could write several operations in
-sequence, such as `b + c` stored in a temporary variable followed by `a * tmp`.
-
-An amendment could also be made to the language syntax, but when that happens
-this documentation ought to be updated!

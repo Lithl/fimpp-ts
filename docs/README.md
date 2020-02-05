@@ -23,3 +23,9 @@ original specification document](https://docs.google.com/document/d/1gU-ZROmZu0X
   * `‽` (interrobang)
   * `…` (ellipsis)
   * `:` (colon)
+* This FiM++ implementation has no provision for grouping expressions. While
+operator precedence functions to group expressions in certain ways, this can
+lead to ambiguous code and is not always the grouping necessary. If you wish to
+make code more clear or need grouping not provided by operator precedence, your
+only options are to restructure your code (for example, changing `a * (b + c)`
+to `a * b + a * c`) or to use intermediate variables.
