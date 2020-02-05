@@ -312,3 +312,39 @@ operand.
     console.log(Trixie_is_powerful ? 'applause' : 'boo');
     ```
 
+### Logical
+Like the [comparison operators](#Comparison), logical operators produce boolean
+values from one operand (unary operator) or two operands (binary operators).
+However, all logical operands must be boolean values.
+
+#### Unary operators
+**Logical NOT:** Returns the opposite boolean value from the operand.
+
+* Use one of the keyword phrases "not" or "it's not the case that" followed by
+the operand.  
+`I said if it's not the case that Trixie is powerful then 'laugh' or else 'cry'.`
+
+    ```typescript
+    console.log(!Trixie_is_powerful ? 'laugh' : 'cry');
+    ```
+
+#### Binary operators
+**Logical AND:** Returns true if both operands are true. If the first operand is
+false, the second operand will not be evaluated.
+
+* Use the first operand followed by the keyword "and" and the second operand.  
+`Did you know that whether I went outside is the argument the sky would be clear and Pinkie Sense would be still?`
+
+    ```typescript
+    let whether_I_went_outside: boolean = the_sky.be_clear() && Pinkie_Sense.be_still();
+    ```
+
+**Logical OR:** Returns true if either operand is true. If the first operand is
+true, the second operand will not be evaluated.
+
+* Use the first operand followed by the keyword "or" and the second operand.  
+`Did you know that whether I went outside is the argument the sky would be clear or Pinkie Sense would be still?`
+
+    ```typescript
+    let whether_I_went_outside: boolean = the_sky.be_clear() || Pinkie_Sense.be_still();
+    ```
