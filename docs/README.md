@@ -3,13 +3,13 @@ This directory contains specification for the FiM++ language, based on [the
 original specification document](https://docs.google.com/document/d/1gU-ZROmZu0Xitw_pfC1ktCDvJH5rM85TxxQf5pg_xmg/edit?pli=1#).
 
 * Descriptions of FiM++ syntax, with small examples:
-** [Comments](comments.md#fim-comments)
-** [Classes and Interfaces](classes-interfaces.md#fim-classes)
-** [Methods](methods.md#fim-methods)
-** [Variables and Literals](variables-literals.md#fim-variables)
-** [Operators](operators.md#fim-operators)
-** [Input/Output](input-output.md#fim-input-and-output)
-** [Control flow](control-flow.md#fim-control-flow)
+  * [Comments](comments.md#fim-comments)
+  * [Classes and Interfaces](classes-interfaces.md#fim-classes)
+  * [Methods](methods.md#fim-methods)
+  * [Variables and Literals](variables-literals.md#fim-variables)
+  * [Operators](operators.md#fim-operators)
+  * [Input/Output](input-output.md#fim-input-and-output)
+  * [Control flow](control-flow.md#fim-control-flow)
 * [Backus-Naur Form](bnf.md) (technical context-free grammar describing FiM++)
 
 ### General notes
