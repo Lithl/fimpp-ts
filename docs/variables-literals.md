@@ -10,19 +10,29 @@ variable label.
 A variable declaration can include an initial value by giving the value instead
 of the variable type. A constant variable _must_ include an initializer.
 
-**Example:** `Did you know that Applejack has a number?`
+**Example:**  
+`Did you know that Applejack has a number?`
 
 Declares a variable named "Applejack" that is a number.
 
-**Example:** `Did you know that the number of pies is 5?`
+**Example:**  
+`Did you know that the number of pies is 5?`
 
 Declares a variable named "the number of pies" with an initial value of 5.
 
-**Example:**
+**Example:**  
 `Did you know that the book's title always was "The Elements of Harmony: A Reference Guide"?`
 
 Declares a constant variable named "the book's title" with a value of "The
 Elements of Harmony: A Reference Guide".
+
+If the variable's type is an object, you can construct a new object using the
+keyword phrase `brand new` followed by the object type name. If the constructor
+has parameters, set them with the `using` keyword just like
+[calling a method](methods.md#calling-a-method).
+
+**Example:**  
+`Did you know that the book was a brand new Encyclopedia using 'Ferns and Fillies'?`
 
 #### Typescript equivalent
 ```typescript
@@ -33,6 +43,9 @@ let the_number_of_pies = 5;
 ```
 ```typescript
 const the_book_s_title = 'The Elements of Harmony: A Reference Guide';
+```
+```typescript
+let the_book = new Encyclopedia('Ferns and Fillies');
 ```
 
 ### Field declaration
