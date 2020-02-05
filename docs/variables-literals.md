@@ -93,15 +93,18 @@ by one of these keyword phrases:
 
 Then, follow with the new value for the variable or field.
 
-**Example:** `Applejack now likes 0.`
+**Example:**  
+`Applejack now likes 0.`
 
 Assigns the value 0 to the variable "Applejack".
 
-**Example:** `the number of pies becomes 25.`
+**Example:**  
+`the number of pies becomes 25.`
 
 Assigns the value 25 to the variable "the number of pies".
 
-**Example:** `Twilight remembered her checklist is now correct.`
+**Example:**  
+`Twilight remembered her checklist is now correct.`
 
 Assigns the value true to the field "her checklist" in the "Twilight" object.
 

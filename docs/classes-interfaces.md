@@ -13,11 +13,13 @@ All classes must explicitly specify the class they inherit from. If no other
 class is appropriate or available, use `Princess Celestia`, which is the
 superclass for all other classes, equivalent to Typescript's `Object`.
 
-**Example:** `Dear Princess Celestia: Letter One.`
+**Example:**  
+`Dear Princess Celestia: Letter One.`
 
 This creates a class named "Letter One", which extends "Princess Celestia".
 
-**Example:** `Dear Princess Luna and Shining Armor and Cadance: An Update:`
+**Example:**  
+`Dear Princess Luna and Shining Armor and Cadance: An Update:`
 
 This creates a class named "An Update", which extends "Princess Luna" and
 implements both "Shining Armor" and "Princess Cadance".
@@ -37,7 +39,8 @@ text. By convention, that text should be the name of the class's author, but it
 is functionally an inline comment with special syntax and could therefore be
 anything.
 
-**Example:** `Your faithful student, Lithl.`
+**Example:**  
+`Your faithful student, Lithl.`
 
 #### Typescript equivalent
 ```typescript
@@ -56,11 +59,13 @@ to extend the other interface.
 
 An interface is not required to explicitly extend anything, unlike classes.
 
-**Example:** `Princess Cadance:`
+**Example:**  
+`Princess Cadance:`
 
 This creates an interface named "Princess Cadance".
 
-**Example:** `Shining Armor and Guard Captain and BBBFF:`
+**Example:**  
+`Shining Armor and Guard Captain and BBBFF:`
 
 This creates an interface named "Shining Armor", which extends both the "Guard
 Captain" interface and the "BBBFF" interface.

@@ -35,19 +35,22 @@ should specify the type as `many words` (or any of the string keyword aliases,
 see [Variables and Literals](variables-literals.md#fim-variables) for
 specifics).
 
-**Example:** `I learned the importance of oral hygeine!`
+**Example:**  
+`I learned the importance of oral hygeine!`
 
 Declares a public instance method named "the importance of oral hygeine" with no
 parameters or specified return type.
 
-**Example:** `Today I learned how to say Hello World.`
+**Example:**  
+`Today I learned how to say Hello World.`
 
 Declares a program entry point function named "how to say Hello World". (While
 an array of strings will be passed to the method when called, this function has
 no intention of making use of the parameter and so omits it from the
 declaration.)
 
-**Example:** `We learned how to do math with a number.`
+**Example:**  
+`We learned how to do math with a number.`
 
 Declares a protected instance method named "how to do math" which will return a
 number.
@@ -87,11 +90,13 @@ same type.
 
 To return a value, simply write "Then you get" followed by the return value.
 
-**Example:** `Then you get 99!`
+**Example:**  
+`Then you get 99!`
 
 Returns the number 99.
 
-**Example:** `Then you get the answer!`
+**Example:**  
+`Then you get the answer!`
 
 Returns the value stored in the variable `the answer`.
 
@@ -138,22 +143,26 @@ When referencing a static method that's a member of the current class (or one of
 its ancestors) from within a static method, you can omit the object reference
 (and the "remembered"/"would" keyword) entirely.
 
-**Example:** `Did you know that Spike was Spike's age?`
+**Example:**  
+`Did you know that Spike was Spike's age?`
 
 This calls the function "Spike's age" on the current object, and assigns the
 return value to the variable `Spike`.
 
-**Example:** `I said how to write Hello World!`
+**Example:**  
+`I said how to write Hello World!`
 
 This calls the function "how to write Hello World" and prints the return value
 to the output stream.
 
-**Example:** `I remembered how to write Hello World using Quills.`
+**Example:**  
+`I remembered how to write Hello World using Quills.`
 
 Calls the same function in the previous example, but passes the parameter
 `Quills`, and doesn't print the return value.
 
-**Example:** `Applejack remembered a countryism!`
+**Example:**  
+`Applejack remembered a countryism!`
 
 Calls the function "a countryism" on the object `Applejack`.
 
