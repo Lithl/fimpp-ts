@@ -7,12 +7,12 @@ syntax. If there is a conflict with the rest of the documentation, this document
 supercedes the content of the others.
 
 ### Programs
-```ebnf
+```
 <compilation unit> ::= [<import declarations>] [<type declarations>]
 ```
 
 ### Declarations
-```ebnf
+```
          <import declarations> ::= <import declaration> | <import declarations> <import declaration>
           <import declaration> ::= <file import> | <type import>
                  <file import> ::= Remember when I wrote in <string literal> <terminator>
@@ -49,7 +49,7 @@ supercedes the content of the others.
 ```
 
 ### Types
-```ebnf
+```
                    <type> ::= <primitive type> | <object tpye>
          <primitive type> ::= <numeric type> | <string type> | <boolean type>
            <boolean type> ::= logic | argument
@@ -63,7 +63,7 @@ supercedes the content of the others.
 ```
 
 ### Statements
-```ebnf
+```
                  <statement> ::= <local variable declaration> | <if statement> | <while statement> | <do while statement> | <for statement> | <switch statement> | <try statement>
           <simple statement> ::= <expression statement> | <return statement>
               <if statement> ::= <if then statement> | <if then else statement> | <if then elseif statement>
@@ -91,7 +91,7 @@ supercedes the content of the others.
 ```
 
 ### Expressions
-```ebnf
+```
 
 ```
 
@@ -106,7 +106,7 @@ supercedes the content of the others.
 <constant expression>
 
 ### Tokens
-```ebnf
+```
 <field modifier> ::= I know that | We know that | I secretly know that
 <static modifier> ::= Finally,
 <constant modifier> ::= always
