@@ -169,42 +169,81 @@ two's compliment, except for the zero-fill right shift which uses an unsigned
 **NOT:** Computes the ones' compliment for the operand. (Equivalent to
 `-(x + 1)`.)
 
-* TODO
+* Use the keyword "not" followed by the operand.  
+`Did you know that negative 10 always is not 9?`
+
+    ```typescript
+    const negative_10 = ~9;
+    ```
 
 #### Binary operators
 **AND:** Computes AND for each corresponding bit in each operand and returns the
 result. (The corresponding result bit will be 1 if _both_ operand bits are 1, 0
 otherwise.)  
 
-* TODO
+* Use the first operand followed by the keyword "And" and the second operand.  
+`Did you know that zero always is 1 and 2?`
+
+    ```typescript
+    const zero = 1 & 2;
+    ```
 
 **OR:** Computes OR for each corresponding bit in each operand and returns the
 result. (The corresponding result bit will be 1 if _either_ operand bits are 1,
 0 otherwise.)
 
-* TODO
+* Use the first operand followed by the keyword "or" and the second operand.  
+`Did you know that three always is 1 and 2?`
+
+    ```typescript
+    const three = 1 | 2;
+    ```
 
 **XOR:** Computes XOR for each corresponding bit in each operand and returns the
 result. (The corresponding result bit will be 1 if the operand bits are
 different, 0 otherwise.)
 
-* TODO
+* Use the keyword "either" followed by the first operand, the keyword "or", and
+the second operand.  
+`Did you know that one always is either 3 or 2?`
+
+    ```typescript
+    const one = 3 ^ 2;
+    ```
 
 **Left shift:** Shifts the bits of the first operand left by a number of
 positions equal to the second operand, shifting in `0`s from the right.
 
-* TODO
+* Use the first operand followed by the keyword phrase "doubled", the
+second operand, and the keyword "time" or "times".  
+`Did you know that two always is 1 doubled 1 time?`
+
+    ```typescript
+    const two = 1 << 1;
+    ```
 
 **Sign-propagating right shift:** Shifts the bits of the first oeprand right by
 a number of positions equal to the second operand, shifting in copies of the
 leftmost bit from the left.
 
-* TODO
+* Use the first operand followed by the keyword "halved", the second operand,
+and the keyword "time" or "times".  
+`Did you know that negative three always is -7 halves 1 time?`
+
+    ```typescript
+    const negative_three = -7 >> 1;
+    ```
 
 **Zero-fill right shift:** Shifts the bits of the first operand right by a
 number of positions equal tot he second operand, shifting in `0`s from the left.
 
-* TODO
+* Use the first operand followed by the keyword "rotated", the second operand,
+and the keyword "time" or "times".  
+`Did you know that seven always is -7 rotated 29 times?`
+
+    ```typescript
+    const seven = -7 >>> 29;
+    ```
 
 ### Comparison
 Comparison operators produce boolean values from two input operands.
