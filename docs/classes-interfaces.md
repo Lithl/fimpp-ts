@@ -19,7 +19,7 @@ superclass for all other classes, equivalent to Typescript's `Object`.
 This creates a class named "Letter One", which extends "Princess Celestia".
 
 **Example:**  
-`Dear Princess Luna and Shining Armor and Cadance: An Update:`
+`Dear Princess Luna and Shining Armor and Princess Cadance: An Update:`
 
 This creates a class named "An Update", which extends "Princess Luna" and
 implements both "Shining Armor" and "Princess Cadance".
