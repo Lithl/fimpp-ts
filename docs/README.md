@@ -10,7 +10,7 @@ original specification document](https://docs.google.com/document/d/1gU-ZROmZu0X
   * [Operators](operators.md#fim-operators)
   * [Input/Output](input-output.md#fim-input-and-output)
   * [Control flow](control-flow.md#fim-control-flow)
-* [Backus-Naur Form](bnf.md) (technical context-free grammar describing FiM++)
+* [Backus-Naur Form](bnf.md#fim-specification) (technical context-free grammar describing FiM++)
 
 ### General notes
 * Labels (keywords, variable names, class names, method names) can be multiple
