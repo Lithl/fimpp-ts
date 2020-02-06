@@ -161,6 +161,8 @@ A type keyword may optionally be prefixed with "the", "a", or "an".
     * `none`
 * Undefined
     * `nothing`
+* Array
+    * A sequence of values connected with the keyword "and" between each.
 
 ## Future work
 * This specification does not currently have any means to inspect variable or
