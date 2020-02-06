@@ -26,12 +26,13 @@ implements both "Shining Armor" and "Princess Cadance".
 
 #### Typescript equivalent
 ```typescript
-class Letter_One extends Object {
+export class Letter_One extends Object {
 ```
 ```typescript
-class An_Update extends Princess_Luna
+export class An_Update extends Princess_Luna
     implements Shining_Armor, Princess_Cadance {
 ```
+Note that all classes will be exported.
 
 ### Ending a class
 Classes must be ended with the text "Your faithful student," followed by some
@@ -72,11 +73,12 @@ Captain" interface and the "BBBFF" interface.
 
 #### Typescript equivalent
 ```typescript
-interface Princess_Cadance {
+export interface Princess_Cadance {
 ```
 ```typescript
-interface Shining_Armor extends Guard_Captain, BBBFF {
+export interface Shining_Armor extends Guard_Captain, BBBFF {
 ```
+Note that all interfaces will be exported.
 
 ### Interface restrictions
 * Method signatures in an interface may not be marked private (using the
